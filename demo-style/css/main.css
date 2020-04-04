@@ -14,7 +14,7 @@
     position: static;
 }
 .prereq li{
-    list-style: disclosure-closed !important;
+    list-style: disc !important;
     line-height: 2 !important;
     font-size: 18px !important;
 }
@@ -32,8 +32,11 @@ footer{
     background:  #1e1b1b ;
     color: #fff !important;
 }
-/* --------------------
-   -------------------- Layout -------------------- */
+.description-info-inner ul li{
+    list-style: disc !important;
+}
+    /* --------------------
+       -------------------- Layout -------------------- */
 .b-customizer  {
      position:  fixed;
      z-index:  111111111;
